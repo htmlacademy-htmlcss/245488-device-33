@@ -32,10 +32,15 @@
 
 body {
   font-family: "Rubik", sans-serif;
+  font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   background-color: #ffffff;
   color: #444444;
+}
+
+.inner-page {
+  color: #000000;
 }
 
 .page-header {
@@ -48,10 +53,12 @@ body {
   text-decoration: none;
 }
 
-.header-navigation-link {
+.main-link {
   font-family: "Raleway", sans-serif;
+  font-size: 18px;
   line-height: 21px;
-  color: inherit;
+  font-weight: 800;
+  color: #000000;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -61,4 +68,208 @@ body {
   line-height: 18px;
   color: inherit;
   text-decoration: none;
+}
+
+.main-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 800;
+  color: #000000;
+}
+
+.products-advantages th {
+  font-weight: 400;
+  font-size: 36px;
+  color: #000000;
+}
+
+.products-advantages td {
+  font-size: 16px;
+}
+
+.main-catalog-img {
+  background-color: #FFE17F;
+}
+
+.main-catalog-item p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 24px;
+  color: #000000;
+}
+
+.main-catalog-item a {
+  text-decoration: none;
+}
+
+.services-slider-active {
+  color: #FFE17F;
+  background-color: #000000;
+}
+
+.services {
+  background-color: #f0f0f0;
+}
+
+.services-item-delivery {
+  background-image: url("../images/delivery-slider-image.svg");
+  background-repeat: no-repeat;
+  background-size: 132px 157px;
+}
+
+.services-item-delivery {
+  background-image: url("../images/delivery-slider.svg");
+  background-repeat: no-repeat;
+  background-size: 132px 157px;
+  background-position: right center;
+}
+
+.services-item-warranty {
+  background-image: url("../images/warranty-slider.svg");
+  background-repeat: no-repeat;
+  background-size: 164px 188px;
+  background-position: right center;
+}
+
+.services-item-credit {
+  background-image: url("../images/credit-slider.svg");
+  background-repeat: no-repeat;
+  background-size: 149px 179px;
+  background-position: right center;
+}
+
+.delivery-button img {
+  background-color: #FFE17F;
+}
+
+.delivery-button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.delivery-button p {
+  background-color: #f0f0f0;
+}
+
+.about-item {
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.contacts-title {
+  font-size: 24px;
+}
+
+.contacts-text, .contacts-phone {
+  font-style: normal;
+  color: #444444;
+}
+
+.subscribe {
+  background-color: #f0f0f0;
+}
+
+.page-footer {
+  background-color: #444444;
+  color: #ffffff;
+}
+
+.footer-adress-text {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 20px;
+}
+
+.footer-navigation-link {
+  color: inherit;
+}
+
+.footer-phone {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 20px;
+  color: inherit;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.catalog-products {
+  background-color: #f0f0f0;
+}
+
+.catalog-products h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.control {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.select-control {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.products {
+  background-color: #ffffff;
+}
+
+.products-item a {
+  text-decoration: none;
+  color: inherit;
+}
+.products-title {
+  line-height: 20px;
+}
+
+.products-price {
+  line-height: 21px;
+  color: #444444;
+}
+
+.more-button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  border: 3px solid #E5E5E5;
+  background-color: #ffffff;
+}
+
+.pagination {
+  background-color: #ebebeb;
+}
+.pagination-link {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
+  opacity: 0.3;
+}
+
+.pagination-link:first-child, .pagination-link:last-child {
+  opacity: 1;
 }
