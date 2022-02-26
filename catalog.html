@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Моноподы для селфи - купить в интернет-магазине Девайс</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
-  <body>
+  <body class="inner-page">
     <header class="page-header">
       <nav>
         <a class="main-logo" href="index.html">
@@ -33,7 +34,7 @@
         </ul>
         <ul class="header-navigation">
           <li class="header-navigation-item">
-            <a class="header-navigation-link" href="#">Каталог товаров</a>
+            <a class="header-navigation-link main-link" href="#">Каталог товаров</a>
             <ul class="header-catalog">
               <li class="header-catalog-item">
                 <a class="header-catalog-link" href="#">Виртуальная реальность</a>
@@ -56,20 +57,20 @@
             </ul>
           </li>
           <li class="header-navigation-item">
-            <a class="header-navigation-link" href="#">Доставка</a>
+            <a class="header-navigation-link main-link" href="#">Доставка</a>
           </li>
           <li class="header-navigation-item">
-            <a class="header-navigation-link" href="#">Гарантия</a>
+            <a class="header-navigation-link main-link" href="#">Гарантия</a>
           </li>
           <li class="header-navigation-item">
-            <a class="header-navigation-link" href="#">Контакты</a>
+            <a class="header-navigation-link main-link" href="#">Контакты</a>
           </li>
         </ul>
       </nav>
     </header>
     <main class="main-inner">
       <header class="inner-header">
-        <h1 class="inner-title">Моноподы для селфи</h1>
+        <h1 class="inner-title main-title">Моноподы для селфи</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link" href="index.html">Главная</a>
@@ -85,7 +86,7 @@
       <section class="catalog-products">
         <h2 class="visually-hidden">Список товаров с фильтрами</h2>
         <section class="filter">
-          <h3 class="visually-hidden">Фильтр товаров</h3>
+          <h3>Фильтр:</h3>
           <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
             <fieldset class="catalog-filter-group">
               <legend class="catalog-filter-title">Стоимость</legend>
@@ -142,7 +143,7 @@
                 </li>
               </ul>
             </fieldset>
-            <button class="filter-button button" type="submit">Показать</button>
+            <button class="filter-button main-link" type="submit">Показать</button>
           </form>
         </section>
         <section class="sort">
@@ -164,48 +165,48 @@
               <div>
                 <a href="#">
                   <img src="images/products/selfie-stick-1.jpg" width="360" height="380" alt="Любительская селфи-палка">
-                  <h4>Любительская селфи-палка</h4>
-                  <span>500 ₽</span>
+                  <h4 class="products-title">Любительская селфи-палка</h4>
+                  <span class="products-price">500 ₽</span>
                 </a>
-                <a class="button" href="#">Подробнее</a>
+                <a class="main-link" href="#">Подробнее</a>
               </div>
             </li>
             <li class="products-item">
               <div>
                 <a href="#">
                   <img src="images/products/selfie-stick-2.jpg" width="360" height="380" alt="Профессиональная селфи-палка">
-                  <h4>Профессиональная селфи-палка</h4>
-                  <span>1500 ₽</span>
+                  <h4 class="products-title">Профессиональная селфи-палка</h4>
+                  <span class="products-price">1500 ₽</span>
                 </a>
-                <a class="button" href="#">Подробнее</a>
+                <a class="main-link" href="#">Подробнее</a>
               </div>
             </li>
             <li class="products-item">
               <div>
                 <a href="#">
                   <img src="images/products/selfie-stick-3.jpg" width="360" height="380" alt="Непотопляемая селфи-палка">
-                  <h4>Непотопляемая селфи-палка</h4>
-                  <span>2500 ₽</span>
+                  <h4 class="products-title">Непотопляемая селфи-палка</h4>
+                  <span class="products-price">2500 ₽</span>
                 </a>
-                <a class="button" href="#">Подробнее</a>
+                <a class="main-link" href="#">Подробнее</a>
               </div>
             </li>
             <li class="products-item">
               <div>
                 <a href="#">
                   <img src="images/products/selfie-stick-4.jpg" width="360" height="380" alt="Селфи-палка «Следуй за мной»">
-                  <h4>Селфи-палка «Следуй за мной»</h4>
-                  <span>1500 ₽</span>
+                  <h4 class="products-title">Селфи-палка «Следуй за мной»</h4>
+                  <span class="products-price">1500 ₽</span>
                 </a>
-                <a class="button" href="#">Подробнее</a>
+                <a class="main-link" href="#">Подробнее</a>
               </div>
             </li>
           </ul>
-          <button >Загрузить еще</button>
+          <button class="more-button">Загрузить еще</button>
           <ul class="pagination">
           <li class="pagination-item">
             <a class="pagination-link pagination-prev pagination-disabled">
-              <span>Назад</span>
+              <span class="main-link">Назад</span>
             </a>
           </li>
           <li class="pagination-item">
@@ -225,7 +226,7 @@
           </li>
           <li class="pagination-item">
             <a class="pagination-link pagination-next" href="#">
-              <span class="visually-hidden">Вперед</span>
+              <span class="main-link">Вперед</span>
             </a>
           </li>
         </ul>
@@ -234,22 +235,25 @@
     </main>
     <footer class="page-footer">
       <section class="footer-adress">
-      <h2 class="visually-hidden">Адрес</h2>
-      <img class="footer-contacts-logo" src="images/logo-footer.svg" width="145" height="36" alt="Интернет-магазина Девайс" alt="Логотип интернет-магазина Девайс">
-      <address class="footer-contacts-address">
-        <p>Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
-      </address>
+        <a href="index.html">
+          <img class="footer-contacts-logo" src="images/logo-footer.svg" width="145" height="36" alt="Интернет-магазина Девайс">
+        </a>
+        <h2 class="visually-hidden">Адрес</h2>
+        <address class="footer-contacts-address">
+          <p class="footer-adress-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+        </address>
       </section>
       <section class="footer-navigation">
+        <h2 class="visually-hidden">Полезная информация</h2>
         <ul class="footer-navigation-list">
           <li class="footer-navigation-item">
-            <a class="footer-navigation-link" href="#">Доставка</a>
+            <a class="footer-navigation-link main-link" href="#">Доставка</a>
           </li>
           <li class="footer-navigation-item">
-            <a class="footer-navigation-link" href="#">Гарантия</a>
+            <a class="footer-navigation-link main-link" href="#">Гарантия</a>
           </li>
           <li class="footer-navigation-item">
-            <a class="footer-navigation-link" href="#">Контакты</a>
+            <a class="footer-navigation-link main-link" href="#">Контакты</a>
           </li>
         </ul>
       </section>
