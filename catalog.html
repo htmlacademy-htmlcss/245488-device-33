@@ -37,7 +37,7 @@
         <ul class="header-navigation">
           <li class="header-navigation-item">
             <a class="header-navigation-link main-link" href="#">Каталог товаров</a>
-            <ul class="header-catalog">
+            <!--<ul class="header-catalog">
               <li class="header-catalog-item">
                 <a class="header-catalog-link" href="#">Виртуальная реальность</a>
               </li>
@@ -56,7 +56,7 @@
               <li class="header-catalog-item">
                 <a class="header-catalog-link" href="#">Квадрокоптеры</a>
               </li>
-            </ul>
+            </ul>-->
           </li>
           <li class="header-navigation-item">
             <a class="header-navigation-link main-link" href="#">Доставка</a>
@@ -87,9 +87,9 @@
       </header>
       <section class="catalog-products">
         <div class="catalog-wrapper">
-        <!--  <h2 class="visually-hidden">Список товаров с фильтрами</h2> -->
+          <h2 class="visually-hidden">Список товаров с фильтрами</h2>
           <section class="filter">
-            <h3>Фильтр:</h3>
+            <h3 class="filter-title">Фильтр:</h3>
             <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
               <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-title">Стоимость</legend>
@@ -151,16 +151,18 @@
           </section>
           <div class="catalog-right-column">
             <section class="sort">
-              <h3>Сортировка:</h3>
+              <h3 class="sort-title">Сортировка:</h3>
               <select class="select-control">
                 <option value="popular">Популярные</option>
               </select>
-              <a class="sort-button" href="#">
-                <span class="visually-hidden">По убыванию</span>
-              </a>
-              <a class="sort-button" href="#">
-                <span class="visually-hidden">По возрастанию</span>
-              </a>
+              <div class="sort-button-wrapper">
+                <a class="sort-button" href="#">
+                  <span class="visually-hidden">По убыванию</span>
+                </a>
+                <a class="sort-button" href="#">
+                  <span class="visually-hidden">По возрастанию</span>
+                </a>
+              </div>
             </section>
             <section class="products">
               <h3 class="visually-hidden">Список товаров</h3>
@@ -168,9 +170,11 @@
                 <li class="products-item">
                   <div>
                     <a href="#">
-                      <img src="images/products/selfie-stick-1.jpg" width="360" height="380" alt="Любительская селфи-палка">
-                      <h4 class="products-title">Любительская селфи-палка</h4>
-                      <span class="products-price">500 ₽</span>
+                      <img class="products-image" src="images/products/selfie-stick-1.jpg" width="360" height="380" alt="Любительская селфи-палка">
+                      <div class="products-item-wrapper">
+                        <h4 class="products-title">Любительская <br> селфи-палка</h4>
+                        <span class="products-price">500 ₽</span>
+                      </div>
                     </a>
                     <a class="main-link" href="#">Подробнее</a>
                   </div>
@@ -178,9 +182,11 @@
                 <li class="products-item">
                   <div>
                     <a href="#">
-                      <img src="images/products/selfie-stick-2.jpg" width="360" height="380" alt="Профессиональная селфи-палка">
-                      <h4 class="products-title">Профессиональная селфи-палка</h4>
-                      <span class="products-price">1500 ₽</span>
+                      <img class="products-image" src="images/products/selfie-stick-2.jpg" width="360" height="380" alt="Профессиональная селфи-палка">
+                      <div class="products-item-wrapper">
+                        <h4 class="products-title">Профессиональная селфи-палка</h4>
+                        <span class="products-price">1500 ₽</span>
+                      </div>
                     </a>
                     <a class="main-link" href="#">Подробнее</a>
                   </div>
@@ -188,9 +194,11 @@
                 <li class="products-item">
                   <div>
                     <a href="#">
-                      <img src="images/products/selfie-stick-3.jpg" width="360" height="380" alt="Непотопляемая селфи-палка">
-                      <h4 class="products-title">Непотопляемая селфи-палка</h4>
-                      <span class="products-price">2500 ₽</span>
+                      <img class="products-image" src="images/products/selfie-stick-3.jpg" width="360" height="380" alt="Непотопляемая селфи-палка">
+                      <div class="products-item-wrapper">
+                        <h4 class="products-title">Непотопляемая <br> селфи-палка</h4>
+                        <span class="products-price">2500 ₽</span>
+                      </div>
                     </a>
                     <a class="main-link" href="#">Подробнее</a>
                   </div>
@@ -198,47 +206,46 @@
                 <li class="products-item">
                   <div>
                     <a href="#">
-                      <img src="images/products/selfie-stick-4.jpg" width="360" height="380" alt="Селфи-палка «Следуй за мной»">
-                      <h4 class="products-title">Селфи-палка «Следуй за мной»</h4>
-                      <span class="products-price">1500 ₽</span>
+                      <img class="products-image" src="images/products/selfie-stick-4.jpg" width="360" height="380" alt="Селфи-палка «Следуй за мной»">
+                      <div class="products-item-wrapper">
+                        <h4 class="products-title">Селфи-палка «Следуй за мной»</h4>
+                        <span class="products-price">1500 ₽</span>
+                      </div>
                     </a>
                     <a class="main-link" href="#">Подробнее</a>
                   </div>
                 </li>
               </ul>
               <button class="more-button">Загрузить еще</button>
-              <ul class="pagination">
-              <li class="pagination-item">
-                <a class="pagination-link pagination-prev pagination-disabled">
+              <div class="pagination">
+                <a class="pagination-prev pagination-disabled">
                   <span class="main-link">Назад</span>
                 </a>
-              </li>
-              <li class="pagination-item">
-                <a class="pagination-link pagination-current">1</a>
-              </li>
-              <li class="pagination-item">
-                <a class="pagination-link" href="#">2</a>
-              </li>
-              <li class="pagination-item">
-                <a class="pagination-link" href="#">3</a>
-              </li>
-              <li class="pagination-item">
-                <a class="pagination-link" href="#">...</a>
-              </li>
-              <li class="pagination-item">
-                <a class="pagination-link" href="#">15</a>
-              </li>
-              <li class="pagination-item">
-                <a class="pagination-link pagination-next" href="#">
+                <ul class="pagination-list">
+                  <li class="pagination-item">
+                    <a class="pagination-link pagination-current">1</a>
+                  </li>
+                  <li class="pagination-item">
+                    <a class="pagination-link" href="#">2</a>
+                  </li>
+                  <li class="pagination-item">
+                    <a class="pagination-link" href="#">3</a>
+                  </li>
+                  <li class="pagination-item">
+                    <a class="pagination-link" href="#">...</a>
+                  </li>
+                  <li class="pagination-item">
+                    <a class="pagination-link" href="#">15</a>
+                  </li>
+                </ul>
+                <a class="pagination-next" href="#">
                   <span class="main-link">Вперед</span>
                 </a>
-              </li>
-            </ul>
+              </div>
+            </section>
           </div>
-          </section>
         </div>
       </section>
-    </div>
     </main>
     <footer class="page-footer">
       <div class="footer-wrapper">
