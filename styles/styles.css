@@ -47,6 +47,11 @@ body {
   color: #444444;
 }
 
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -251,7 +256,7 @@ body {
   padding: 0;
   list-style: none;
   display: grid;
-  grid-template-columns: 160px 160px 160px 160px 160px 160px;
+  grid-template-columns: repeat(6, 160px);
   gap: 40px;
   margin-bottom: 70px;
 }
@@ -684,7 +689,7 @@ address .contacts-text {
   padding: 0;
   list-style: none;
   display: grid;
-  grid-template-columns: 360px 360px;
+  grid-template-columns: repeat(2, 360px);
   column-gap: 40px;
   row-gap: 44px;
   margin-bottom: 44px;
