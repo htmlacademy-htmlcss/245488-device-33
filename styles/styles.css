@@ -283,7 +283,7 @@ img {
 .open-cart-link {
   display: block;
   padding: 14px;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -330,7 +330,7 @@ img {
   background-image: url("../images/search-icon.svg");
   background-repeat: no-repeat;
   background-position: left 16px center;
-  font-family: 'Rubik';
+  font-family: 'Rubik', sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 20px;
@@ -340,7 +340,7 @@ img {
 
 .search input::placeholder {
   color: #000000;
-  font-family: 'Rubik';
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -356,7 +356,7 @@ img {
   padding: 10px 56px;
   box-sizing: border-box;
   cursor: pointer;
-  font-family: 'Rubik';
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -1856,7 +1856,7 @@ img {
 .new {
   border: 2px solid #C4C4C4;
   border-radius: 50%;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 14px;
   line-height: 16px;
@@ -2057,7 +2057,7 @@ img {
 }
 
 .modal-title {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 50px;
   line-height: 50px;
@@ -2107,7 +2107,7 @@ img {
 }
 
 .field::placeholder {
-  font-family: 'Rubik';
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #000000;
